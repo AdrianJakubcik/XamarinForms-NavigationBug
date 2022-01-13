@@ -18,7 +18,7 @@ namespace NavigationBug
 
         private void NextPage_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page2());
+            App.Current.MainPage.Navigation.PushAsync(new Page2());
         }
     }
 }
